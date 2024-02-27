@@ -5,35 +5,39 @@ import Slide from "./Slide";
 const data = [
   {
     id: 1,
-    src: "https://images.pexels.com/photos/1787236/pexels-photo-1787236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    src: "https://i.ibb.co/XszmG02/camera.jpg",
     headLine: " capture stunning photos with our dslr cameras",
     body: "Discover the power of our DSLR cameras for unparalleled photography. From breathtaking landscapes to intimate portraits, our collection offers superior clarity and precision for every shot. Elevate your   skills and unleash your creativity. Shop now and seize the moment with our exceptional DSLR cameras.",
     cta: "shop dslr cameras now!",
+    category: "cameras",
   },
   {
     id: 2,
-    src: "https://png.pngtree.com/thumb_back/fh260/background/20230718/pngtree-sleek-flat-screen-led-lcd-tv-in-a-bold-blue-setting-image_3902232.jpg",
+    src: "https://i.ibb.co/mtc8v16/tv.jpg",
     headLine:
       "Transform Your Viewing Experience with Our Cutting-Edge TV Collection!",
     body: " Immerse yourself in unparalleled entertainment with our range of high-definition TVs. From stunning visuals to immersive sound, our TVs redefine home entertainment. Whether you're a cinephile or a casual viewer, our curated selection offers something for everyone. Upgrade your viewing experience today!",
     cta: "Shop our TVs now!",
+    category: "tvs",
   },
   {
     id: 3,
-    src: "https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    src: "https://i.ibb.co/kmr5qQv/headphones.jpg",
     headLine:
       "Immerse Yourself in Pure Sound: Discover Our Headphone Collection!",
     body: " Dive into a world of crystal-clear audio with our premium headphones. Designed for comfort and precision, our collection delivers an unparalleled listening experience. Whether you're a music enthusiast, gamer, or audiophile, find your perfect match and elevate every moment with exceptional sound quality.",
     cta: "Shop our headphones now!",
+    category: "headphones",
   },
   {
     id: 4,
-    src: "https://www.protectyourbubble.com/images/default-source/default-album/pyb_july_blog_ps5-rumours_banner-min.png?sfvrsn=c069cd88_2",
+    src: "https://i.ibb.co/JqxDhvZ/console.jpg",
     headLine:
       "Unlock Limitless Adventure: Explore Our Console Collection Today!",
 
     body: "Dive into a world of immersive gaming experiences with our cutting-edge console selection. From action-packed adventures to multiplayer mayhem, our consoles offer endless entertainment possibilities for gamers of all ages and preferences.",
     cta: "Start gaming now!",
+    category: "consoles",
   },
   {
     id: 5,
@@ -41,6 +45,7 @@ const data = [
     headLine: "Timeless Elegance: Explore Our Watch Collection!",
     body: "Discover sophistication and functionality in every tick with our curated selection of watches. From classic designs to modern innovations, find the perfect timepiece to elevate your style and keep you punctual.",
     cta: "Time to shop!",
+    category: "smart-watches",
   },
 ];
 
