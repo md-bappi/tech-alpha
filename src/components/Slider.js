@@ -12,7 +12,7 @@ const data = [
   },
   {
     id: 2,
-    src: "https://images.pexels.com/photos/1444416/pexels-photo-1444416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    src: "https://png.pngtree.com/thumb_back/fh260/background/20230718/pngtree-sleek-flat-screen-led-lcd-tv-in-a-bold-blue-setting-image_3902232.jpg",
     headLine:
       "Transform Your Viewing Experience with Our Cutting-Edge TV Collection!",
     body: " Immerse yourself in unparalleled entertainment with our range of high-definition TVs. From stunning visuals to immersive sound, our TVs redefine home entertainment. Whether you're a cinephile or a casual viewer, our curated selection offers something for everyone. Upgrade your viewing experience today!",
@@ -28,7 +28,7 @@ const data = [
   },
   {
     id: 4,
-    src: "https://images.pexels.com/photos/14824329/pexels-photo-14824329.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    src: "https://www.protectyourbubble.com/images/default-source/default-album/pyb_july_blog_ps5-rumours_banner-min.png?sfvrsn=c069cd88_2",
     headLine:
       "Unlock Limitless Adventure: Explore Our Console Collection Today!",
 
@@ -37,7 +37,7 @@ const data = [
   },
   {
     id: 5,
-    src: "https://images.pexels.com/photos/393047/pexels-photo-393047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    src: "https://images.pexels.com/photos/277390/pexels-photo-277390.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     headLine: "Timeless Elegance: Explore Our Watch Collection!",
     body: "Discover sophistication and functionality in every tick with our curated selection of watches. From classic designs to modern innovations, find the perfect timepiece to elevate your style and keep you punctual.",
     cta: "Time to shop!",
@@ -71,7 +71,7 @@ const Slider = () => {
       <div className="btns absolute left-0 right-0 bottom-16 m-auto w-fit z-[1]  text-2xl flex gap-10 ">
         <button
           onClick={prevSlide}
-          className="prev-btn h-14 w-20 flex justify-center items-center bg-violet-900 text-violet-200 border-2 border-violet-200 hover:bg-gray-900 hover:text-gray-200 hover:border-gray-200 duration-300"
+          className="prev-btn h-14 w-20 flex justify-center items-center bg-violet-900 text-violet-200 border border-violet-200 hover:bg-gray-900 hover:text-gray-200 hover:border-gray-200 duration-300"
         >
           <span>
             <BsArrowLeft />
@@ -79,7 +79,7 @@ const Slider = () => {
         </button>
         <button
           onClick={nextSlide}
-          className="next-btn h-14 w-20 flex justify-center items-center bg-violet-900 text-violet-200 border-2 border-violet-200 hover:bg-gray-900 hover:text-gray-200 hover:border-gray-200 duration-300"
+          className="next-btn h-14 w-20 flex justify-center items-center bg-violet-900 text-violet-200 border border-violet-200 hover:bg-gray-900 hover:text-gray-200 hover:border-gray-200 duration-300"
         >
           <span>
             <BsArrowRight />
