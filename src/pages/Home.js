@@ -3,7 +3,7 @@ import Products from "../pages/Products";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home overflow-hidden">
       <Slider />
       <Products />
     </div>
